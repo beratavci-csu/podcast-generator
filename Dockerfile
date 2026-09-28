@@ -1,10 +1,10 @@
 FROM ubuntu:latest
 
 RUN apt-get update
-RUN apt-get install python3.10
-RUN apt-get install python3-pip
-RUN apt-get install git
-RUN apt-get install python3-yaml
+RUN apt-get install -y python3
+RUN apt-get install -y python3-pip
+RUN apt-get install -y git
+RUN apt-get install -y python3-yaml
 
 #----------------
 #8 [3/5] RUN pip3 install PyYAML
